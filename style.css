@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav-bar design */
+
+.header-section {
+  height: 92px;
+  width: 1600px;
+  margin: 0px auto;
+  margin-top: 5px;
+  background-color: #412567;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.nav-bar ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  gap: 32px;
+}
+
+.nav-bar ul a:hover {
+  color: deeppink;
+  font-size: 20px;
+}
+
+.nav-bar img {
+  height: 32px;
+  width: 219px;
+  padding: 30px 0px 30px;
+}
+
+.btn {
+  width: 135px;
+  height: 44px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid white;
+  background-image: url("images/btn.png");
+}
+
+.btn:hover {
+  background-size: 105%;
+}
