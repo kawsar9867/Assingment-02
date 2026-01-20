@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
 /* Nav-bar design */
@@ -9,13 +11,16 @@
   height: 92px;
   width: 1600px;
   margin: 0px auto;
-  margin-top: 5px;
+  display: flex;
+
+  align-items: center;
   background-color: #412567;
 }
 
 .nav-bar {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  height: 100%;
   justify-content: space-around;
   align-items: center;
 }
@@ -41,7 +46,6 @@
 .nav-bar img {
   height: 32px;
   width: 219px;
-  padding: 30px 0px 30px;
 }
 
 .btn {
@@ -77,12 +81,27 @@
   align-items: center;
 }
 
+.Hero-btn {
+  width: 75px;
+  height: 38px;
+  border-radius: 25px;
+  background: #00ff88;
+  outline: none;
+  border: none;
+  position: absolute;
+  left: 54%;
+  top: 18%;
+  z-index: 1;
+  right: 91%;
+  font-weight: bold;
+}
+
 .hero-main-2 .img-2 {
   position: relative;
   margin-top: 101px;
 }
 
-.hero-main-2 img {
+.hero-main-2 .img-wrapper {
   position: absolute;
   margin-top: 70px;
 }
@@ -189,7 +208,7 @@
 }
 
 .about-child h1 {
-  font-size: 48px;
+  font-size: 50px;
   color: #00ff88;
 }
 
@@ -284,13 +303,13 @@
   margin: 0px auto;
 }
 
-.card-section h1 {
+.card-section .card-section-text {
   display: flex;
   justify-content: center;
   color: #fff;
-  padding-bottom: 40px;
   font-size: 48px;
   font-weight: bold;
+  padding-bottom: 48px;
 }
 
 .card-div {
@@ -336,4 +355,49 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+/* Host Area */
+
+.main-host {
+  width: 1200px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  background-color: #260a4e;
+  border-radius: 30px;
+  gap: 24px;
+}
+
+.child-host-1 {
+  display: flex;
+  align-items: center;
+}
+
+.child-host-2 {
+  padding: 48px 40px 48px 0px;
+}
+
+.child-host-1 img {
+  margin: 0px 0px 0px 40px;
+}
+
+.child-host-2 h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.child-host-2 p {
+  color: #fff;
+  opacity: 80%;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.child-host-2 img {
+  gap: 8px;
+  margin-top: 16px;
 }
