@@ -489,7 +489,9 @@ li {
   .layout-section h1 {
     text-align: center;
   }
-
+  .card-section-text {
+    text-align: center;
+  }
   .grid-layout {
     padding-right: 20px;
     padding-left: 20px;
@@ -501,10 +503,18 @@ li {
       "fourth-div"
       "fifth-div";
   }
-
+  .footer-section {
+    width: 470px;
+  }
   .parent-card {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
     margin: 0 70px;
+  }
+
+  .footer-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .main-host {
@@ -525,12 +535,7 @@ li {
   .host-contact {
     display: flex;
     justify-content: center;
-    gap:;
-  }
-
-  .footer-section ul,
-  li {
-    display: none;
+    gap: 20px;
   }
 
   .btn {
@@ -544,5 +549,15 @@ li {
   .humberg-menu img {
     height: 24px;
     width: 24px;
+  }
+
+  .footer-box {
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
