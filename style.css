@@ -14,7 +14,7 @@
   display: flex;
 
   align-items: center;
-  background-color: #412567;
+  background-color: #200c3a;
 }
 
 .nav-bar {
@@ -89,10 +89,11 @@
   outline: none;
   border: none;
   position: absolute;
-  left: 54%;
-  top: 18%;
+  left: 56%;
+  top: 25%;
   z-index: 1;
   right: 91%;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -299,7 +300,7 @@
 .card-section {
   width: 1600px;
   height: 1276px;
-  background-color: #230e3d;
+  background-color: #1a0b2e;
   margin: 0px auto;
 }
 
@@ -310,6 +311,7 @@
   font-size: 48px;
   font-weight: bold;
   padding-bottom: 48px;
+  padding-top: 120px;
 }
 
 .card-div {
@@ -367,7 +369,7 @@
   margin: 0px auto;
   background-color: #260a4e;
   border-radius: 30px;
-  gap: 24px;
+  gap: 20px;
 }
 
 .child-host-1 {
@@ -380,7 +382,7 @@
 }
 
 .child-host-1 img {
-  margin-right: 15px;
+  margin-left: 30px;
 }
 
 .child-host-2 .name {
@@ -409,4 +411,51 @@
   font-weight: bold;
   margin-bottom: 40px;
   margin-top: 120px;
+}
+/* host-area-end */
+
+/* footer-section-start */
+
+.footer-section {
+  width: 1600px;
+  height: 412px;
+  background-image: url("images/footer-bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 110px;
+}
+
+.footer-section img {
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+.footer-section ul,
+li {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  color: #fff;
+}
+
+.footer-section p {
+  color: gray;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.footer-box {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-box-child {
+  display: flex;
+  color: white;
+  gap: 10px;
 }
