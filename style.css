@@ -380,14 +380,13 @@
 }
 
 .child-host-1 img {
-  margin: 0px 0px 0px 40px;
+  margin-right: 15px;
 }
 
-.child-host-2 h1 {
-  display: flex;
-  justify-content: flex-start;
+.child-host-2 .name {
   font-size: 32px;
   font-weight: bold;
+  color: #fff;
 }
 
 .child-host-2 p {
@@ -400,4 +399,14 @@
 .child-host-2 img {
   gap: 8px;
   margin-top: 16px;
+}
+
+.host-information h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 120px;
 }
