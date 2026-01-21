@@ -5,8 +5,7 @@
   box-sizing: border-box;
 }
 
-
-button:hover{
+button:hover {
   transform: scale(1.02);
 }
 
@@ -331,9 +330,9 @@ button:hover{
   border-radius: 24px;
 }
 
-.card-div:hover{
+.card-div:hover {
   transform: scale(1.05);
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
 .card-div iframe {
@@ -547,8 +546,10 @@ li {
   .parent-card {
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
+    justify-items: center;
+    align-items: center;
   }
+  
   .card-div-1,
   .card-div-2,
   .card-div-3 {
@@ -611,7 +612,7 @@ li {
   .host-contact {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    padding-left: 80px;
   }
 
   .btn {
