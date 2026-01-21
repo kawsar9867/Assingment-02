@@ -537,6 +537,7 @@ li {
   .parent-card {
     display: flex;
     flex-direction: column;
+    padding-left: 35px;
   }
   .card-div-1,
   .card-div-2,
