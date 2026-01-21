@@ -52,6 +52,10 @@ button:hover {
   width: 219px;
 }
 
+.btn-div {
+  height: 100px;
+}
+
 .btn {
   width: 135px;
   height: 44px;
@@ -549,7 +553,7 @@ li {
     justify-items: center;
     align-items: center;
   }
-  
+
   .card-div-1,
   .card-div-2,
   .card-div-3 {
