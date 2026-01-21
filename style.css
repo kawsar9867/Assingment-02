@@ -77,6 +77,9 @@
   width: 100%;
   background-image: url("images/hero-bg.png");
   margin: 0px auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #1a0b2e;
 }
 
 .hero-main-2 {
@@ -429,11 +432,16 @@
   align-items: center;
   flex-direction: column;
   margin-top: 110px;
+ background-position-x: center;
+  background-repeat: repeat-x;
 }
 
 .footer-section img {
   margin: 0px auto;
   margin-bottom: 30px;
+}
+.wave{
+  padding-left: 120px;
 }
 
 .footer-section ul,
@@ -464,6 +472,7 @@ li {
   gap: 10px;
 }
 
+
 /* Responsive Section */
 
 @media screen and (max-width: 576px) {
@@ -472,16 +481,38 @@ li {
     max-width: 576px;
     margin: 0 20px;
   }
+  * {
+    overflow-x: hidden;
+  }
+  .img-2 {
+    width: 12.5rem;
+  }
+  .micro {
+    width: 5rem;
+    padding-top: 20px;
+  }
+  .hero-section {
+    background-position-y: 100px;
+    background-position-x: -70px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-color: #1a0b2e;
+  }
+  .header-text p {
+    text-align: center;
+  }
 
   .Hero-btn {
-    left: 62%;
     top: 20%;
   }
-  .about-section {
-    padding-left: 20px;
-    padding-right: 20px;
+  .nav-menu ul li {
+    display: none;
   }
-
+  .about-section {
+    text-align: center;
+    margin-top: -170px;
+    padding: 20px;
+  }
   .about-child {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -503,18 +534,53 @@ li {
       "fourth-div"
       "fifth-div";
   }
-  .footer-section {
-    width: 470px;
-  }
+
   .parent-card {
     display: flex;
     flex-direction: column;
-    margin: 0 70px;
+    padding: 30px;
+  }
+  .card-div-1,
+  .card-div-2,
+  .card-div-3 {
+    width: 320px;
+  }
+
+  iframe {
+    width: 320px;
+  }
+
+  .card-section {
+    width: 100%;
+    max-width: 576px;
   }
 
   .footer-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .host-area {
+    margin-bottom:-115px;
+  }
+  
+
+  .footer-section {
+    background-image:url(images/Image.png);
+     background-position: center;
+     background-size: 120%;
+     background-color:#1a0b2e;
+
+  }
+
+  .footer-hero {
+    justify-items: center;
+  }
+  .wave{
+    padding-left:50px;
+    width: 150px;
+  }
+  .footer-box .footer-box-child,.footer-box div{
+    width: 100px;
   }
 
   .main-host {
@@ -522,13 +588,16 @@ li {
     padding-left: 20px;
     margin-left: 20px;
     margin-right: 20px;
+  
   }
   .child-host-1 {
     display: flex;
     padding-top: 70px;
+    padding-right: 50px;
     justify-content: center;
   }
-  .name {
+
+  .child-host-2 {
     text-align: center;
   }
 
@@ -537,6 +606,7 @@ li {
     justify-content: center;
     gap: 20px;
   }
+  
 
   .btn {
     display: none;
@@ -551,13 +621,10 @@ li {
     width: 24px;
   }
 
-  .footer-box {
-    justify-content: start;
-    align-items: start;
-    gap: 20px;
-  }
-
   body {
     overflow-x: hidden;
+  }
+  .footer-box-child{
+    gap:-20px;
   }
 }
