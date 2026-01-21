@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+
+button:hover{
+  transform: scale(1.02);
+}
+
 /* Nav-bar design */
 
 .header-section {
@@ -326,6 +331,11 @@
   border-radius: 24px;
 }
 
+.card-div:hover{
+  transform: scale(1.05);
+  transition: transform .3s;
+}
+
 .card-div iframe {
   border-radius: 20px;
 }
@@ -492,7 +502,7 @@ li {
   }
   .hero-section {
     background-position-y: 100px;
-    background-position-x: -70px;
+    background-position-x: -120px;
     background-size: 150%;
     background-repeat: no-repeat;
     background-color: #1a0b2e;
@@ -537,7 +547,7 @@ li {
   .parent-card {
     display: flex;
     flex-direction: column;
-    padding-left: 35px;
+    padding-left: 80px;
   }
   .card-div-1,
   .card-div-2,
@@ -620,7 +630,16 @@ li {
   body {
     overflow-x: hidden;
   }
+
+  .footer-box-child img {
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+  }
+
   .footer-box-child {
-    gap: -20px;
+    display: flex;
+    align-items: center;
   }
 }
